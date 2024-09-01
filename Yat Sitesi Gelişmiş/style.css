@@ -1,0 +1,472 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Bölümü */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 16px 32px;
+    position: fixed;
+    width: 100%;
+}
+
+.header-logo img {
+    width: 70px;
+}
+
+.header-logo .header-button {
+    display: none;
+}
+
+.header-links ul,
+.header-icon ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-links ul li a {
+    padding: 16px 32px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    letter-spacing: 2px;
+    transition: all 0.4s linear;
+    font-style: italic;
+}
+
+.header-links ul li a:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.header-icon ul li {
+    margin-right: 12px;
+    font-size: 20px;
+    color: oldlace;
+}
+
+/* Header Bölümü */
+
+/* Banner Bölümü */
+
+.banner {
+    background-image: url(https://nevayatkiralama.com/assets/site/img/upload/171969372_yatay-2.png);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.banner-div h1 {
+    color: oldlace;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.banner-div p {
+    color: oldlace;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.banner-div .banner-btn {
+    padding: 25px 32px;
+    text-align: center;
+}
+
+.banner-div .banner-btn a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    background-color: white;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    transition: all 0.4s linear;
+    border: 2px solid transparent;
+}
+
+.banner-div .banner-btn a:hover {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+/* Banner Bölümü */
+
+/* Hakkımızda Bölümü */
+
+.about {
+    padding: 50px 0px;
+}
+
+.about-title {
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.about-img {
+    width: 50%;
+}
+
+.about-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-info {
+    width: 40%;
+}
+
+.about-btn {
+    margin-top: 20px;
+}
+
+.about-btn a {
+    text-decoration: none;
+    padding: 15px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.4s linear;
+}
+
+.about-btn a:hover {
+    color: black;
+    background-color: white;
+}
+
+/* Hakkımızda Bölümü */
+
+/* Hizmetlerimiz Bölümü */
+
+.services {
+    padding: 50px 20px;
+}
+
+.services-title {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.services-card {
+    display: flex;
+}
+
+.service {
+    display: flex;
+}
+
+.service .services-icon {
+    font-size: 32px;
+    padding: 8px;
+}
+
+.service .services-info {
+    padding-left: 10px;
+}
+
+/* Hizmetlerimiz Bölümü */
+
+/* Turlarımız Bölümü */
+
+.tours {
+    padding: 50px 0px;
+}
+
+.tours-title {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.tours-container {
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    margin: 0px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tours-cards .tours-img {
+    position: relative;
+}
+
+.tours-cards .tours-img img {
+    width: 100%;
+    height: 300px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.tours-cards .tours-img p {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 15px 0px 0px 0px;
+    margin-bottom: 4px;
+}
+
+.tours-container .tours-info {
+    padding: 20px 25px;
+}
+
+.tours-container .tours-info h4,
+.tours-container .tours-info p {
+    margin-bottom: 12px;
+    line-height: 1.25;
+}
+
+.tours-container .tours-info p {
+    color: gray;
+}
+
+.tours-container .tours-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    color: cornflowerblue;
+}
+
+.tours-btn {
+    text-align: center;
+}
+
+.tours-btn a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.4s linear;
+    border-radius: 20px;
+}
+
+.tours-btn a:hover {
+    color: black;
+    background-color: white;
+}
+
+/* Turlarımız Bölümü */
+
+/* Galeri Bölümü */
+
+.galleryies {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galleryies .gallery-container {
+    width: 25%;
+    height: 250px;
+    position: relative;
+    background-color: cornflowerblue;
+}
+
+.gallery-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-container:hover img {
+    opacity: 0.5;
+}
+
+.gallery-container a {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    opacity: 0;
+    transition: all 0.3s linear;
+}
+
+.gallery-container:hover a {
+    opacity: 1;
+}
+
+/* Galeri Bölümü */
+
+/* Footer Bölümü */
+
+.footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 50px 0px;
+}
+
+.footer .footer-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.footer .footer-links li {
+    list-style: none;
+}
+
+.footer .footer-links a {
+    text-decoration: none;
+    margin-right: 16px;
+    letter-spacing: 2px;
+    color: white;
+    transition: all 0.3s linear;
+}
+
+.footer .footer-links a:hover {
+    border-bottom: 1px solid cornflowerblue;
+    color: cornflowerblue;
+}
+
+.footer .footer-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.footer .footer-icons li {
+    list-style: none;
+}
+
+.footer .footer-icons a {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    font-size: 20px;
+    transition: all 0.3s linear;
+}
+
+.footer .footer-icons a:hover {
+    color: cornflowerblue;
+}
+
+.footer p {
+    letter-spacing: 2px;
+}
+
+/* Mobil Navbar */
+
+@media screen and (max-width:768px) {
+    .header-logo {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-button {
+        display: block;
+        font-size: 200px;
+        color: black;
+        background-color: white;
+        border: none;
+    }
+
+    .header-button:hover {
+        transform: scale(1.2);
+    }
+
+
+    .header-links {
+        display: none;
+    }
+
+    .header-icon {
+        display: none;
+    }
+
+    .banner-div {
+        flex-direction: column;
+    }
+
+    .banner-div h1 {
+        text-align: center;
+    }
+
+    .banner-btn {
+        padding: 15px 10px;
+        font-size: 18px;
+    }
+
+    .about-container {
+        flex-direction: column;
+        margin: 0;
+        padding: 30px;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+
+    .about-info {
+        width: 100%;
+    }
+
+    .about-btn {
+        text-align: center;
+    }
+
+    .services-card {
+        flex-direction: column;
+    }
+
+    .service {
+        margin-bottom: 15px;
+    }
+
+    .services-icon {
+        display: flex;
+        min-width: 60px;
+        justify-content: center;
+    }
+
+    .tours-container {
+        width: 100%;
+        margin: 0px 10px;
+    }
+
+    .gallery-container {
+        width: 100%;
+    }
+
+    .footer  {
+        padding: 100px 0px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+    }
+
+    .footer-links li {
+        padding: 10px 0px;
+    }
+}
